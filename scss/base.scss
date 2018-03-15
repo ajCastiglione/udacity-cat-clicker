@@ -1,0 +1,99 @@
+/***********
+variables
+************/
+$lOrange: #FF4F22;
+$lightyellow: #fffcdd;
+$white: #fff;
+$rom: 'Rammetto One';
+$rale: 'Raleway';
+/**********************
+Base styles
+**********************/
+body,
+html {
+  background-color: $lightyellow;
+  font-family: $rale;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.body-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.menu-title {
+  span {
+    border-bottom: 2px solid $lOrange;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $white;
+      background-color: $lOrange;
+    }
+  }
+}
+
+.oneHalf {
+  width: 100%;
+}
+
+.catChoice {
+  width: 100%;
+  margin: 0.5em auto;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  p {
+    margin: 0.5em auto;
+  }
+}
+
+/* selected cat section */
+.selectedKitty {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cat-title {
+  font-family: $rom;
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+/********************
+768 & up
+********************/
+@media screen and (min-width: 768px) {
+  .catChoice {
+    width: 65%;
+  }
+
+  .oneHalf {
+    width: 48%;
+    display: inline-block;
+  }
+}
+/********************
+1030 & up
+********************/
+@media screen and (min-width: 1030px) {
+  .catChoice {
+    width: 40%;
+  }
+}
