@@ -1,6 +1,5 @@
 $(function() {
 
-  const output = $('.body-content');
   const catSelect = $('#catSelection');
   const chosenCat = $('#selectedCat');
   const menu = $('.menu-title span');
