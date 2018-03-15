@@ -23,4 +23,5 @@ I plan on updating this project with more features such as:
 <ul>
 <li>Being able to add your own cat.</li>
 <li>Being able to rename any given cat.</li>
+<li>Actually spending time styling this and making it look better.</li>
 </ul>
