@@ -3,7 +3,7 @@ This is a simple game based on <a href="https://cowclicker.com/">cow clicker</a>
 
 ## How to play
 <ul>
-<li>Click "Clone in Desktop" / "Download ZIP" - or clone the url</li>
+<li>Click "Clone in Desktop" / "Download ZIP"</li>
 <li>Open the folder</li>
 <li>Open index.html on your preferred browser</li>
 <li>It will show a vertical menu of cat images on the left</li>
